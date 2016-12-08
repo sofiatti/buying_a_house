@@ -1,6 +1,10 @@
 # Task List
 
-- [ ] Get data 
+- [x] Set up barebones Flask website
+    - [x] Add LinkedIn button
+- [x] Create virtualenv at `~/eb-virt/` (used pyvenv - caution: [pip bug](http://askubuntu.com/questions/488529/pyvenv-3-4-error-returned-non-zero-exit-status-1))
+- [x] Host Flask site on AWS Elastic Beanstalk
+- [x] Get access to Zillow API
 - [ ] Create database 
 - [ ] Clean data
 - [ ] Set up Website
