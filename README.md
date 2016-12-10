@@ -4,6 +4,13 @@
     - [x] Add LinkedIn button
 - [x] Create virtualenv at `~/eb-virt/` (used pyvenv - caution: [pip bug](http://askubuntu.com/questions/488529/pyvenv-3-4-error-returned-non-zero-exit-status-1))
 - [x] Host Flask site on AWS Elastic Beanstalk
+- [ ] Which neighborhoods hold their value in financial crisis? 
+    - [x] Use 4 bedroom median price data to create MPLD3 plot with highlighting and line tooltip
+    - [ ] Same as above, but with percentage difference from 1998
+    - [ ] Create metric for ranking neighborhoods that 'hold their value'
+    - [ ] Generate table for website with info above (for future: create a geo heat map!)
+    - [ ] Finalize webpage that will hold this session
+--------------------
 - [x] Get access to Zillow API
 - [ ] Create database 
 - [ ] Clean data
