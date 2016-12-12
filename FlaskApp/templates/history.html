@@ -2,7 +2,7 @@
 <html lang="en">
  
 <head>
-    <title>Buying a House in the Bay Area</title>
+    <title>History of Housing Prices in the Bay Area</title>
  
  
     <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -13,29 +13,52 @@
 </head>
  
 <body>
- 
+
     <div class="container">
         <div class="header">
             <nav>
                 <ul class="nav nav-pills pull-right">
-                    <li role="presentation" class="active"><a href="index">Home</a>
+                    <li role="presentation"><a href="index">Home</a>
                     </li>
                     <li role="presentation"><a href="price">Price</a>
                     </li>
-                    <li role="presentation"><a href="history">History</a>
+                    <li role="presentation" class="active"><a href="history">History</a>
 	            </li>
                 </ul>
             </nav>
-	    <h3 class="text-muted">Buying a House in the Bay Area</h3>
+	    <h3 class="text-muted">History of Housing Prices in the Bay Area</h3>
         </div>
- 
-        <div class="jumbotron">
-            <h1>How much?</h1>
-            <p class="lead"></p>
-            <p><a class="btn btn-lg btn-success" href="price" role="button">Find Out</a>
-            </p>
+    <div class="container">
+        <div class="row">
+        <div class="col-xs-6">
+        <div class="header">
+	<h4>Median 4 Bedroom Home Prices per Neighborhood</h4>
         </div>
- 
+      <div class="center-block">
+	{{ median_4bedroom_plot|safe }}
+      </div>
+      <p>Bills are clustered together by use of similar vocabulary.
+	Bills that mention similar things are grouped together. For
+	example, bills that
+	mention education are in a different group than bills that mention
+	terrorism. The body of text used to identify each bill was taken from
+	the each bill's title. This could be improved if the body of each bill
+	was used rather than just the title.
+	<br>
+	Large dots are "Yay" votes and smaller dots are "Nay" votes,
+	and from this visualization you can see Boxer has a tendency to vote
+	"Yay" for all bills in some clusters and "Nay" for bills in other
+	clusters.</p>
+      <p>
+	The fact that Boxer has a pattern of voting for or against bills with
+	certain content, allows for a model to be built to predict her voting behavior.
+	</p>
+    </div>
+    </div>
+    </div>
+	
+        
+	 
         <div class="row marketing">
             <div class="col-lg-6">
                 <h4>Bucket List</h4>

@@ -10,7 +10,9 @@
     - [ ] Create metric for ranking neighborhoods that 'hold their value'
     - [ ] Generate table for website with info above (for future: create a geo heat map!)
     - [ ] Finalize webpage that will hold this session
+
 --------------------
+
 - [x] Get access to Zillow API
 - [ ] Create database 
 - [ ] Clean data
