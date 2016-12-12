@@ -37,11 +37,11 @@ See website here: http://howmuchshouldyoubid-env.us-west-2.elasticbeanstalk.com/
 - [x] Get access to Zillow API
 - [ ] Create database 
 - [ ] Set up query bar in website
-- [ ] Model "How much should you offer?"
-    -[ ] Select Features
-    -[ ] Create training, test and validation sets
-    -[ ] Train model. CNN? 
-    -[ ] Get confusion matrix
+- [ ] Model "How much should you offer?  "
+    -[ ] Select Features  
+    -[ ] Create training, test and validation sets  
+    -[ ] Train model. CNN?   
+    -[ ] Get confusion matrix  
 - [ ] Update README.md with examples. Make it look something like this:[Pagers' Readme.md](https://github.com/sindresorhus/pageres)
 - [ ] Make Unit Tests
 - [ ] Travis (Integration Test)
