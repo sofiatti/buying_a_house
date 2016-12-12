@@ -1,6 +1,7 @@
 FlaskApp/templates/.index.html.swp
-ZillowData/*
-ZillowNeighborhoods-CA/*
+data/ZillowData/*
+data/ZillowNeighborhoods-CA/*
 .ipynb_checkpoints/*
 .DS_Store
 notebooks/.ipynb_checkpoints/*
+*.swp

@@ -29,60 +29,31 @@
 	    <h3 class="text-muted">History of Housing Prices in the Bay Area</h3>
         </div>
     <div class="container">
-        <div class="row">
-        <div class="col-xs-6">
         <div class="header">
-	<h4>Median 4 Bedroom Home Prices per Neighborhood</h4>
+	<h4>Median Home Prices</h4>
         </div>
       <div class="center-block">
 	{{ median_4bedroom_plot|safe }}
       </div>
-      <p>Bills are clustered together by use of similar vocabulary.
-	Bills that mention similar things are grouped together. For
-	example, bills that
-	mention education are in a different group than bills that mention
-	terrorism. The body of text used to identify each bill was taken from
-	the each bill's title. This could be improved if the body of each bill
-	was used rather than just the title.
-	<br>
-	Large dots are "Yay" votes and smaller dots are "Nay" votes,
-	and from this visualization you can see Boxer has a tendency to vote
-	"Yay" for all bills in some clusters and "Nay" for bills in other
-	clusters.</p>
-      <p>
-	The fact that Boxer has a pattern of voting for or against bills with
-	certain content, allows for a model to be built to predict her voting behavior.
-	</p>
+      <p><small>Hover over lines to see neighborhood</small></p>
+      <br>
+      <p>This plot shows median prices of 4 bedroom houses for each Bay Area neighborhood. Data is provided by Zillow and spans between April 1996 and October 2016.
+     Here you can see a general dip between 2001 and 2002 and another, longer spanning dip between 2008 and 2010. These behaviors are explained by the dotcom crisis and the housing market crisis. The overall trend indicates sky-rocketing housing prices.  
     </div>
+     <br>
+     <div class="container">
+	<div class="header">
+	<h4>Normalized Median Home Prices</h4>
+      </div>
+      {{ median_4bedroom_normalized_plot|safe }}
+      <p><small>Hover over lines to see neighborhood
+      </small></p>
+      <br>
+      <p> This plot contains the same data as above, except each line has been normalized by its January 2009 point. Neighborhoods with missing data between January 2009 and October 2016 have been excluded from this plot. Here you can see the power of gentrification, with places such as Mission, San Francisco, increasing in value nearly 5-fold. On the other hand, neighborhoods such as Cabbalo Hills and Glen Highlands in Oakland, lag behind in growth. Furthermore, this plot shows that some neighboorhoods such as Longwood-Winton grove, in Hayward, still haven't fully recovered from the 2008 housing crisis.  
+      <br><br>
+      <img src="./static/img/Zillowlogo_200x50.gif" alt="Zillow Logo" height="50" width="200" align="right" />
     </div>
-    </div>
-	
-        
 	 
-        <div class="row marketing">
-            <div class="col-lg-6">
-                <h4>Bucket List</h4>
-                <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
- 
-                <h4>Bucket List</h4>
-                <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
- 
-                <h4>Bucket List</h4>
-                <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
-            </div>
- 
-            <div class="col-lg-6">
-                <h4>Bucket List</h4>
-                <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
- 
-                <h4>Bucket List</h4>
-                <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
- 
-                <h4>Bucket List</h4>
-                <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
-            </div>
-        </div>
- 
         <footer class="footer">
             <p>&copy; Caroline Sofiatti </p>
 	    <br>
